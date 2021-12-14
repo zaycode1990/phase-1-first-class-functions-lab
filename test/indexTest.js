@@ -2,7 +2,7 @@ describe('index.js', function () {
   const drivers = ['Antonia', 'Nuru', 'Amari', 'Claudia'];
 
   afterEach(function () {
-    expect(drivers, 'MAKE SURE YOUR ARRAY MANIPULATIONS ARE NON-DESTRUCTIVE').to.eql(['Antonia', 'Nuru', 'Amari', 'Mo']);
+    expect(drivers, 'MAKE SURE YOUR ARRAY MANIPULATIONS ARE NON-DESTRUCTIVE').to.eql(['Antonia', 'Nuru', 'Amari', 'Claudia']);
   });
 
   describe('returnFirstTwoDrivers()', function () {
